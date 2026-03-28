@@ -6,4 +6,10 @@ OpenReels is a CLI that generates complete YouTube Shorts from a single topic. I
 
 ## Status
 
-🚧 Under active development. Coming soon.
+Under active development. Coming soon.
+
+## License
+
+This project is licensed under the [PolyForm Noncommercial License 1.0.0](LICENSE) — free for personal, educational, research, and non-profit use.
+
+For commercial or for-profit use, a separate license is required. Contact **talhajsiam@gmail.com** for licensing inquiries.
