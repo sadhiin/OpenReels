@@ -6,7 +6,9 @@ Open-source AI pipeline that turns any topic into a fully rendered YouTube Short
 
 > *"The photographer who tricked the entire art world with AI"* — generated with `--archetype editorial_caricature`
 
-https://github.com/user-attachments/assets/PLACEHOLDER
+
+https://github.com/user-attachments/assets/189967cd-de41-4ce1-b2c4-33f40b6c19a9
+
 
 ## What it does
 
