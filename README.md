@@ -1,6 +1,13 @@
 # OpenReels
 
-Open-source AI pipeline that turns any topic into a fully produced YouTube Short. One command. Research, script, voiceover, AI-generated visuals, AI-generated music, animated captions, scene transitions. Out comes a vertical MP4, ready to upload.
+[![GitHub stars](https://img.shields.io/github/stars/tsensei/OpenReels?style=flat&color=f5c542)](https://github.com/tsensei/OpenReels/stargazers)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Version](https://img.shields.io/badge/version-0.13.1-green.svg)](CHANGELOG.md)
+[![Tests](https://img.shields.io/badge/tests-288%20passing-brightgreen.svg)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178c6.svg)]()
+[![Docker](https://img.shields.io/badge/Docker-ready-2496ED.svg)]()
+
+Open-source AI pipeline that turns any topic into a publish-ready YouTube/Instagram/TikTok Short. One command. Research, script, voiceover, AI-generated visuals, AI-generated music, animated captions, scene transitions. Out comes a vertical MP4, ready to upload.
 
 Web UI with live pipeline visualization, REST API, Docker, and CLI. Bring your own API keys.
 
@@ -233,7 +240,13 @@ The rewrite moves from Python to TypeScript for native [Remotion](https://www.re
 
 ## Status
 
-v0.11.0 shipped. AI-generated background music via Google Lyria 3 Pro with scene-synced scoring. See [CHANGELOG.md](CHANGELOG.md) for full version history and [TODOS.md](TODOS.md) for known issues and roadmap.
+v0.13.1 shipped. See [CHANGELOG.md](CHANGELOG.md) for full version history and [TODOS.md](TODOS.md) for known issues and roadmap.
+
+## Star History
+
+If OpenReels is useful to you, consider giving it a star. It helps others discover the project.
+
+[![Star History Chart](https://api.star-history.com/svg?repos=tsensei/OpenReels&type=Date)](https://star-history.com/#tsensei/OpenReels&Date)
 
 ## License
 
