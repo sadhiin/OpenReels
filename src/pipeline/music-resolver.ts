@@ -2,7 +2,7 @@ import { getArchetype } from "../config/archetype-registry.js";
 import { generateMusicPrompt } from "../agents/music-prompter.js";
 import { BundledMusic } from "../providers/music/bundled-adapter.js";
 import type { DirectorScore, MusicMood } from "../schema/director-score.js";
-import type { LLMProvider, LLMUsage, MusicProvider, MusicProviderKey, MusicResult } from "../schema/providers.js";
+import type { LLMProvider, LLMUsage, MusicProvider, MusicProviderKey } from "../schema/providers.js";
 import type { PipelineCallbacks } from "./utils.js";
 
 const MAX_LYRIA_DURATION = 180; // Lyria 3 Pro max ~3 minutes

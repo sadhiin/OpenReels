@@ -1,5 +1,4 @@
 import * as fs from "node:fs";
-import * as path from "node:path";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { MusicMood } from "../../schema/director-score.js";
 import { _resetCache, selectTrack, validateManifest } from "./bundled.js";

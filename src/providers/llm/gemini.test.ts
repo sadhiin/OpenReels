@@ -1,7 +1,7 @@
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 
 const mockGoogleSearch = vi.fn().mockReturnValue({ type: "google-search-tool" });
-const mockProvider = vi.fn().mockReturnValue("language-model");
+const mockProvider: any = vi.fn().mockReturnValue("language-model");
 mockProvider.tools = { googleSearch: mockGoogleSearch };
 
 vi.mock("@ai-sdk/google", () => ({

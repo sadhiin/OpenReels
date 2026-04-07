@@ -19,18 +19,21 @@ const baseScore: DirectorScore = {
       visual_prompt: "Title",
       motion: "static",
       script_line: "Scene one.",
+      transition: null,
     },
     {
       visual_type: "ai_image",
       visual_prompt: "Image",
       motion: "zoom_in",
       script_line: "Scene two.",
+      transition: null,
     },
     {
       visual_type: "stock_video",
       visual_prompt: "Video",
       motion: "static",
       script_line: "Scene three.",
+      transition: null,
     },
   ],
 };
@@ -98,7 +101,7 @@ describe("mapScoreToProps", () => {
       ...baseScore,
       scenes: baseScore.scenes.map((s, i) => ({
         ...s,
-        transition: i === 0 ? ("crossfade" as const) : i === 1 ? ("wipe" as const) : undefined,
+        transition: i === 0 ? ("crossfade" as const) : i === 1 ? ("wipe" as const) : null,
       })),
     };
     const props = mapScoreToProps(score, baseAssets);
@@ -118,6 +121,7 @@ describe("mapScoreToProps", () => {
     const originalGetArchetype = archetypeRegistry.getArchetype;
     // Temporarily mock getArchetype to return a config without defaultTransition
     const noTransitionConfig: ArchetypeConfig = {
+      scenePacing: "moderate",
       captionStyle: "clean",
       colorPalette: { background: "#000", accent: "#fff", text: "#fff" },
       textCardFont: "Inter",
@@ -155,6 +159,7 @@ describe("mapScoreToProps", () => {
           visual_prompt: "Rocket launch",
           motion: "static",
           script_line: "Watch the launch.",
+          transition: null,
         },
       ],
     };
@@ -178,6 +183,7 @@ describe("mapScoreToProps", () => {
           visual_prompt: "Rocket launch",
           motion: "static",
           script_line: "Watch the launch.",
+          transition: null,
         },
       ],
     };

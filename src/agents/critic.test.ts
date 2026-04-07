@@ -33,7 +33,7 @@ function mockLLM(): LLMProvider & { lastUserMessage: string } {
       };
     }),
   };
-  return mock;
+  return mock as unknown as LLMProvider & { lastUserMessage: string };
 }
 
 describe("evaluate pacing tier derivation", () => {

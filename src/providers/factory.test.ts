@@ -269,7 +269,7 @@ describe("createProviders", () => {
   });
 
   it("creates BundledMusic when music config is bundled", () => {
-    const providers = createProviders({
+    createProviders({
       llm: "anthropic",
       tts: "elevenlabs",
       image: "gemini",

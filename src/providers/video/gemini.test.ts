@@ -21,7 +21,7 @@ import { GeminiVideo } from "./gemini.js";
 
 // Access mocks
 const { __mocks } = await import("@google/genai") as any;
-const { generateVideos, getVideosOperation, download } = __mocks;
+const { generateVideos, download } = __mocks;
 
 describe("GeminiVideo", () => {
   it("throws without API key", () => {

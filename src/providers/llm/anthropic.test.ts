@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from "vitest";
 
 const mockWebSearch = vi.fn().mockReturnValue({ type: "web-search-tool" });
-const mockProvider = vi.fn().mockReturnValue("language-model");
+const mockProvider: any = vi.fn().mockReturnValue("language-model");
 mockProvider.tools = { webSearch_20250305: mockWebSearch };
 
 vi.mock("@ai-sdk/anthropic", () => ({
